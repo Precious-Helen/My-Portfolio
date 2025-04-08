@@ -1,0 +1,37 @@
+        .gradient-background{
+            background:linear-gradient(#d7eae2 30%, #9d9de5 70%);
+        }
+        .work-sample_container{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+        }
+        .work-sample1 {
+            background: linear-gradient(
+                to bottom,
+                rgba(0,0,0,0),
+                rgba(0,0,0,0.4)
+            ), url(./laptop.jpg);
+        }
+        .work-sample2 {
+            background: linear-gradient(
+                to bottom,
+                rgba(0,0,0,0),
+                rgba(0,0,0,0.4)
+            ), url(./laptop.jpg);
+        }
+        .work-sample3 {
+            background: linear-gradient(
+                to bottom,
+                rgba(0,0,0,0),
+                rgba(0,0,0,0.4)
+            ), url(./laptop.jpg);
+        }
+        .work-sample4 {
+            background: linear-gradient(
+                to bottom,
+                rgba(0,0,0,0),
+                rgba(0,0,0,0.4)
+            ), url(./laptop.jpg);
+        }

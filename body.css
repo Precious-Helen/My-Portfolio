@@ -1,0 +1,20 @@
+body {
+    background:linear-gradient( #4d3bf1 30%, #eaeaea 70%);
+    color: #ffffff;          
+}
+img {
+    background-color: #5490cc;
+    overflow: hidden;
+    border: #5490cc;
+    transition: transform 0.3s;
+    object-fit: cover;
+    border-radius: 700px;
+}
+.copyright {
+    width: 100%;
+    text-align: left;
+    padding: 25px 0;
+    font-weight: 300;
+    margin-top: 20px;
+    background: #eaeaeabb;
+}
