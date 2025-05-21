@@ -14,9 +14,9 @@ body {
 }
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 20px 10%;
+  padding: 15pxpx 5%;
   background-color: transparent;
   position: sticky;
   top: 0;
@@ -24,21 +24,28 @@ body {
   backdrop-filter: blur(5px);
   border: 1px solid var(--accent);
   border-radius: 30px;
+  flex-wrap: wrap;
 }
 .logo {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--accent);
+  font-style: italic;
 }
 .nav-links {
   display: flex;
-  gap: 20px;
+  gap: 1rem;
   list-style: none;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .nav-links li a {
   color: var(--fg);
   text-decoration: none;
   font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  white-space: nowrap;
+  transition: color 0.2s ease;
 }
 
 .nav-links li a:hover {
@@ -246,12 +253,15 @@ hr {
 }
 @media (max-width: 480px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
+    padding: 10px 5%;
+    border-radius: 20px;
+    gap: 20px;
   }
   .nav-links {
-    flex-direction: column;
-    gap: 10px;
+    gap: 0.5rem;
+  }
+  .nav-links li a {
+    padding: 0.3rem 0.6rem;
   }
   .hero h1 {
     font-size: 2rem;
